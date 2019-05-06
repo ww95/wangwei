@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangwei.dao.AccountDao">
+    <resultMap id="account" type="com.wangwei.bean.Account">
+        <id property="id" column="aid" javaType="java.lang.Integer"></id>
+        <result property="account" column="ausername" javaType="java.lang.String"></result>
+        <result property="password" column="apassword" javaType="java.lang.String"></result>
+        <result property="status" column="astatus" javaType="java.lang.Integer"></result>
+        <result property="cookie" column="acookie" javaType="java.lang.String"></result>
+        <result property="ninkName" column="anick_name" javaType="java.lang.String"></result>
+    </resultMap>
+
+    <select id="selectByAccount" resultMap="account" parameterType="com.wangwei.bean.Account" >
+        select * from account where ausername = #{account} and astatus=#{status};
+    </select>
+
+    <select id="selectByCookie" resultMap="account" parameterType="String" >
+        select * from account where acookie=#{cookie};
+    </select>
+    <select id="selectById" resultMap="account" parameterType="java.lang.Integer" >
+        select * from account where aid=#{id};
+    </select>
+
+    <update id="update" parameterType="com.wangwei.bean.Account">
+        update account
+        <set>
+            <if test="cookie!=null">acookie=#{cookie},</if>
+            <if test="password!=null">apassword=#{password},</if>
+            <if test="ninkName!=null">anick_name=#{ninkName},</if>
+        </set>
+        where ausername=#{account};
+    </update>
+
+    <insert id="insert" parameterType="com.wangwei.bean.Account">
+        insert into account(ausername, apassword, astatus, anick_name) values
+         (#{account},#{password},#{status},#{ninkName});
+    </insert>
+</mapper>

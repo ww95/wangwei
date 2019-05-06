@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangwei.dao.CarBooksDao">
+    <resultMap id="carBooks" type="com.wangwei.bean.CarBooks">
+        <id property="id" column="id" javaType="java.lang.Integer"></id>
+        <result column="userid" property="userid" javaType="java.lang.Integer"></result>
+        <result column="booksid" property="booksid" javaType="java.lang.Integer"></result>
+        <association property="account" column="userid" select="com.wangwei.dao.AccountDao.selectById"></association>
+        <association property="books" column="booksid" select="com.wangwei.dao.BooksDao.selectOne"></association>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.wangwei.bean.CarBooks">
+        insert into car_books(booksid, userid) values (#{booksid},#{userid})
+    </insert>
+
+    <select id="selectAll" resultMap="carBooks">
+        select * from car_books where car_books.userid=#{id}
+    </select>
+
+    <select id="selectOne" parameterType="com.wangwei.bean.CarBooks" resultMap="carBooks">
+        select * from car_books where booksid=#{booksid} and userid=#{userid}
+    </select>
+    <select id="selectById" parameterType="Integer" resultMap="carBooks">
+        select * from car_books where id=#{id}
+    </select>
+
+    <delete id="deleteOne1" parameterType="java.lang.Integer">
+        delete from car_books where booksid = #{CarBooksId}
+    </delete>
+    <delete id="deleteOne" parameterType="java.lang.Integer">
+        delete from car_books where id = #{CarBooksId}
+    </delete>
+
+    <delete id="deleteAll" parameterType="java.lang.Integer">
+        delete from car_books where userid = #{usernameId}
+    </delete>
+</mapper>

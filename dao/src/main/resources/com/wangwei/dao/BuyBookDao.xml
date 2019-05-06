@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangwei.dao.BuyBookDao">
+    <resultMap id="buyBooks" type="com.wangwei.bean.BuyBook">
+        <id column="bbId" property="id" javaType="Integer"></id>
+        <result column="bookId" property="BId" javaType="Integer"></result>
+        <result column="bborder" property="bbOrder" javaType="String"></result>
+        <result column="buser" property="user" javaType="Integer"></result>
+        <result column="bstatus" property="status" javaType="Integer"></result>
+        <result column="bbnumber" property="number" javaType="Integer"></result>
+        <result column="sum_totail" property="sumTotail" javaType="Integer"></result>
+        <result column="sum_number" property="sumNumber" javaType="Integer"></result>
+        <result column="binfo" property="info" javaType="String"></result>
+        <result column="is_pay" property="isPay" javaType="Integer"></result>
+        <result column="totial" property="totial" javaType="Double"></result>
+        <association property="books" column="bookId" select="com.wangwei.dao.BooksDao.selectOne"></association>
+        <association property="account" column="buser" select="com.wangwei.dao.AccountDao.selectById"></association>
+    </resultMap>
+    <select id="selectOne" parameterType="Integer" resultMap="buyBooks">
+    --     select bb.*,b.b_id,b.b_name,b.b_creater,b.b_price from buy_books bb left join books b on bb.bookId=b.b_id;
+        select * from buy_books where bbId=#{id}
+    </select>
+
+<!--    查询购买图书总销售额-->
+    <select id="selectSale" resultType="Integer">
+        select  sum(totial) from buy_books
+    </select>
+
+<!--    查询通过图书分组的图书购买信息-->
+    <select id="selectGroup" resultMap="buyBooks">
+        select bookId,sum(totial) sum_totail,sum(bbnumber) sum_number from buy_books   group by bookId
+    </select>
+    <select id="selectSuccess" resultMap="buyBooks">
+    --     select bb.*,b.b_id,b.b_name,b.b_creater,b.b_price from buy_books bb left join books b on bb.bookId=b.b_id;
+        select * from buy_books where is_pay = 1 order by bbId desc
+    </select>
+
+    <select id="selectByUserId" parameterType="java.lang.Integer" resultMap="buyBooks">
+        select * from buy_books b left join account a on b.buser=a.aid where b.buser=#{userId} order by b.bbId desc
+    </select>
+
+    <select id="selectAll" resultMap="buyBooks">
+        select * from buy_books order by bbId desc
+    </select>
+    <select id="selectByBookId" parameterType="Integer" resultMap="buyBooks">
+        select * from buy_books where bookId = #{BookId}
+    </select>
+
+    <insert id="insert" parameterType="com.wangwei.bean.BuyBook">
+        insert into buy_books(bookId,buser,bborder, bstatus, bbnumber, binfo,is_pay,totial) VALUES
+        (#{BId},#{user},#{bbOrder},#{status},#{number},#{info},#{isPay},#{totial})
+    </insert>
+
+    <update id="update" parameterType="com.wangwei.bean.BuyBook">
+        update buy_books
+        <set>
+            <if test="BId!=null">bookId=#{BId},</if>
+            <if test="status!=null">bstatus=#{status},</if>
+            <if test="number!=null">bbnumber=#{number},</if>
+            <if test="info!=null">binfo=#{info},</if>
+            <if test="isPay!=null">is_pay=#{isPay},</if>
+        </set>
+        where bbid=${id};
+    </update>
+</mapper>

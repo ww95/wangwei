@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangwei.dao.CatalogDao">
+    <resultMap id="catalog" type="com.wangwei.bean.Catalog">
+        <id property="id" column="c_id" javaType="java.lang.Integer"></id>
+        <result property="title" column="c_title" javaType="java.lang.String"></result>
+        <result property="pid" column="c_pid" javaType="java.lang.Integer"></result>
+        <result property="info" column="c_info" javaType="java.lang.String"></result>
+        <!--这个是根据父亲id查询的-->
+       <collection property="children" column="c_id" select="selectByPid"></collection>
+    </resultMap>
+
+    <insert id="insert"  useGeneratedKeys="true" keyProperty="id">
+        insert into catalog(c_title, c_pid, c_info) values
+        <foreach collection="list" item="catalog" separator=",">
+            (#{catalog.title},#{catalog.pid},#{catalog.info})
+        </foreach>
+        ;
+    </insert>
+
+    <select id="getRoot" parameterType="java.lang.Integer" resultMap="catalog">
+        select * from catalog where c_id=#{id};
+    </select>
+    <select id="getById" parameterType="java.lang.Integer" resultType="Integer" >
+        select c_id from catalog where c_pid in(
+         <foreach collection="list" item="catalog" separator=",">
+             #{catalog}
+         </foreach>
+        );
+    </select>
+
+    <select id="selectByPid" parameterType="java.lang.Integer" resultMap="catalog">
+        select * from catalog where c_pid=#{pid};
+    </select>
+
+    <delete id="deleteById" parameterType="java.util.List" >
+        delete from catalog where c_id in
+        <foreach collection="list" item="catalog" open="(" close=")" separator=",">
+            #{catalog}
+        </foreach>
+    </delete>
+
+    <delete id="deleteByPid" parameterType="java.util.List">
+        delete from catalog where c_pid in
+        <foreach collection="list" open="(" close=")" item="catalog" separator=",">
+            #{catalog}
+        </foreach>
+    </delete>
+
+    <update id="update" parameterType="com.wangwei.bean.Catalog">
+        update catalog
+        <set>
+            <if test="title!=null">c_title=#{title},</if>
+            <if test="info!=null">c_info=#{info},</if>
+        </set>
+        where c_id=#{id};
+    </update>
+</mapper>

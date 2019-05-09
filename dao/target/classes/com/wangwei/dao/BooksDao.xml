@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangwei.dao.BooksDao">
+    <resultMap id="books" type="com.wangwei.bean.Books">
+        <id property="bId" column="b_id" javaType="java.lang.Integer"></id>
+        <result property="bName" column="b_name" javaType="java.lang.String"></result>
+        <result property="bType" column="b_type" javaType="java.lang.Integer"></result>
+        <result property="number" column="number" javaType="java.lang.Integer"></result>
+        <result property="bCreate" column="b_creater" javaType="java.lang.String"></result>
+        <result property="bPrice" column="b_price" javaType="java.lang.Double"></result>
+        <result property="jinhuo" column="jinhuo" javaType="java.lang.Double"></result>
+        <result property="zhekou" column="zhekou" javaType="java.lang.Double"></result>
+        <result property="totalJinhuo" column="totalJinhuo" javaType="java.lang.Double"></result>
+        <result property="bInfo" column="b_info" javaType="java.lang.String"></result>
+        <result property="bNumber" column="b_number" javaType="java.lang.Integer"></result>
+        <result property="bPath" column="b_img_path" javaType="java.lang.String"></result>
+        <association property="catalog" column="b_type" javaType="com.wangwei.bean.Catalog">
+            <result property="title" column="c_title" javaType="String"></result>
+        </association>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.wangwei.bean.Books" useGeneratedKeys="true" keyProperty="bId">
+        insert into books (b_name, b_type, b_creater, b_price, b_info, b_img_path,b_number,number,jinhuo,zhekou,totalJinhuo)
+        values (#{bName},#{bType},#{bCreate},#{bPrice},#{bInfo},#{bPath},#{bNumber},#{number},#{jinhuo},#{zhekou},#{totalJinhuo});
+    </insert>
+<!--    查询图书总进货价-->
+    <select id="selectStock" resultType="Integer">
+        select  sum(totalJinhuo) from books;
+    </select>
+
+    <update id="delete" parameterType="java.util.List">
+        update books set b_ststus = 1 where b_id in
+        <foreach collection="list" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </update>
+    <update id="deleteByType" parameterType="java.util.List">
+        update books set b_ststus = 1 where b_type in
+        <foreach collection="list" open="(" close=")" separator="," item="id">
+            #{id}
+        </foreach>
+    </update>
+    <update id="update" parameterType="com.wangwei.bean.Books">
+        update books
+        <set>
+            <if test="bName!=null">b_name=#{bName},</if>
+            <if test="bType!=null">b_type=#{bType},</if>
+            <if test="bCreate!=null">b_creater=#{bCreate},</if>
+            <if test="bPrice!=null">b_price=#{bPrice},</if>
+            <if test="bInfo!=null">b_info=#{bInfo},</if>
+            <if test="bNumber!=null">b_number=#{bNumber},</if>
+            <if test="bPath!=null">b_img_path=#{bPath},</if>
+            <if test="number!=null">number=#{number},</if>
+            <if test="totalJinhuo!=null">totalJinhuo=#{totalJinhuo},</if>
+            <if test="jinhuo!=null">jinhuo=#{jinhuo},</if>
+            <if test="zhekou!=null">zhekou=#{zhekou},</if>
+        </set>
+        where b_id=#{bId};
+    </update>
+
+    <select id="selectOne" parameterType="Integer" resultMap="books">
+        select b.*,c.c_title from books b left join catalog c on b.b_type=c.c_id where b.b_id=#{id}
+    </select>
+    <select id="selectByType" parameterType="java.lang.Integer" resultMap="books">
+       select b.*,c.c_title from books b left join catalog c on b.b_type=c.c_id where b.b_ststus = 0 and b.b_type=#{type} order by b.b_id desc
+    </select>
+
+    <select id="selectAll" resultMap="books">
+        select b.*,c.c_title from books b left join catalog c on b.b_type=c.c_id where b.b_ststus = 0 order by b.b_id desc
+    </select>
+    <select id="sreach" parameterType="java.lang.String" resultMap="books">
+        select b.*,c.c_title from books b left join catalog c on b.b_type=c.c_id where b.b_creater like concat('%',#{sreach},'%') or b.b_name like concat('%',#{sreach},'%')
+    </select>
+</mapper>

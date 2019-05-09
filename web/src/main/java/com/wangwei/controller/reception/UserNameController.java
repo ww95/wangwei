@@ -65,7 +65,7 @@ public class UserNameController {
      * @return
      */
     @RequestMapping("buyBook")
-    public String buyBook(Map<String,Object> map, BuyBook buyBook, HttpSession session){
+    public String buyBook(Map<String,Object> map,BuyBook buyBook,@RequestParam(required = false) Integer numbers, HttpSession session){
         //图书购买成功
         System.out.println(buyBook.toString());
         Books books = booksService.getById(buyBook.getBId());
@@ -74,7 +74,17 @@ public class UserNameController {
         buyBooksService.add(buyBook);
         books.setbNumber(books.getbNumber()-buyBook.getNumber());
         booksService.edit(books);
-        carBooksService.removeOne(books.getbId());
+        //删除购物车里面商品 如果没有就不会删除
+        if (null==numbers){
+            numbers = 0;
+        }
+        System.out.println(1==numbers);
+        if (1==numbers){
+            //购物车中
+            carBooksService.removeOne1(books.getbId());
+        }
+        //收藏中间不删除 以及 从商品详情页不删除
+
         //返回首页
         return "redirect:/index";
     }
@@ -442,4 +452,51 @@ public class UserNameController {
         return "forward:toForgetPwd";
     }
 
+    @RequestMapping("toBuyCar")
+    public String toBuyCar(Map<String,Object> map, @RequestParam Integer id,@RequestParam(required = false) Integer pageNum, HttpServletRequest request){
+        if (null==pageNum||0==pageNum){
+            pageNum = 1;
+        }
+        //获取购物车东西
+        CarBooks carBooks = carBooksService.getById(id);
+        //获取商品
+        Books books = booksService.getById(carBooks.getBooksid());
+        //
+        Integer number = books.getbNumber();
+//        System.out.println(number);
+        if (number<=0){
+            books.setbNumber(0);
+            booksService.edit(books);
+            map.put("msg","图书已买完");
+            return "forward:self-car?pageNum="+pageNum;
+        }
+//        System.out.println(number);
+        map.put("order",System.currentTimeMillis());
+        map.put("book",books);
+        map.put("number",1);
+        return "reception/buyBook";
+    }
+
+    @RequestMapping("toBuyCollection")
+    public String toBuyCollection(Map<String,Object> map, @RequestParam Integer id,@RequestParam(required = false) Integer pageNum, HttpServletRequest request){
+        if (null==pageNum||0==pageNum){
+            pageNum = 1;
+        }
+        //获取购物车东西
+        CollectionBook collectionBook = collectionBooksService.getById(id);
+        //获取商品
+        Books books = booksService.getById(collectionBook.getBooksId());
+        Integer number = books.getbNumber();
+//        System.out.println(number);
+        if (number<=0){
+            books.setbNumber(0);
+            booksService.edit(books);
+            map.put("msg","图书已买完");
+            return "forward:self-car?pageNum="+pageNum;
+        }
+//        System.out.println(number);
+        map.put("order",System.currentTimeMillis());
+        map.put("book",books);
+        return "reception/buyBook";
+    }
 }

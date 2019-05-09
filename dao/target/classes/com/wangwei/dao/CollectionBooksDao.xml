@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.wangwei.dao.CollectionBooksDao">
+    <resultMap id="collection" type="com.wangwei.bean.CollectionBook">
+        <id column="cbid" property="id" javaType="Integer"></id>
+        <result column="book_id" property="booksId" javaType="Integer"></result>
+        <result column="user_id" property="userId" javaType="Integer"></result>
+        <association property="account" column="user_id" select="com.wangwei.dao.AccountDao.selectById"></association>
+        <association property="books" column="book_id" select="com.wangwei.dao.BooksDao.selectOne"></association>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.wangwei.bean.CollectionBook">
+        insert into collection_book(book_id, user_id) VALUES (#{booksId},#{userId});
+    </insert>
+
+    <select id="getAll" parameterType="java.lang.Integer" resultMap="collection">
+        select * from collection_book where user_id=#{UsernameId}
+    </select>
+
+    <select id="getOne" parameterType="com.wangwei.bean.CollectionBook" resultMap="collection">
+        select * from collection_book where user_id=#{userId} and book_id=#{booksId}
+    </select>
+    <select id="selectById" parameterType="Integer" resultMap="collection">
+        select * from collection_book where cbid=#{id}
+    </select>
+
+    <delete id="delete" parameterType="java.lang.Integer">
+        delete from collection_book where cbid = #{id}
+    </delete>
+</mapper>

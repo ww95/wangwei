@@ -81,7 +81,7 @@
                                 <td>${books.books.bCreate}</td>
                                 <td>${books.books.bPrice}</td>
                                 <td>
-                                    <a href="${pageContext.request.contextPath}/username/toBuyCollection?id=${books.id}">查看</a>
+                                    <a href="${pageContext.request.contextPath}/username/toBuyCollection?id=${books.id}">购买</a>
                                     <a href="${pageContext.request.contextPath}/username/self/detailCollection?id=${books.id}&pageNum=${pageInfo.pageNum}">查看</a>
                                     <a href="${pageContext.request.contextPath}/username/recollecttionAll?mobileos=${books.id}&pageNum=${pageInfo.pageNum}">删除</a>
                                 </td>

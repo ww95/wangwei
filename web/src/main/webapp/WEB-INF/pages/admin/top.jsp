@@ -102,6 +102,13 @@
                         <span class="sidebar-title">数据统计</span>
                     </a>
                 </li>
+                <li class="sidebar-label pt20">用户管理</li>
+                <li class="active">
+                    <a href="${pageContext.request.contextPath}/backstage/admin/user-manager">
+                        <span class="glyphicon glyphicon-book"></span>
+                        <span class="sidebar-title">用户列表</span>
+                    </a>
+                </li>
             </ul>
             <div class="sidebar-toggle-mini">
 <%--                <a href="login.html">--%>

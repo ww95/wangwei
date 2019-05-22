@@ -86,7 +86,8 @@ public class UserNameController {
         //收藏中间不删除 以及 从商品详情页不删除
 
         //返回首页
-        return "redirect:/index";
+        map.put("msg","订单支付成功");
+        return "forward:/index";
     }
 
     /**
@@ -364,17 +365,21 @@ public class UserNameController {
         String regex = "[a-zA-Z0-9!@#$%^&*()]{5,12}";
         if(!newPassword.matches(regex)||!checkedPassword.matches(regex)){
             map.put("msg","输入格式不正确，请重新输入");
-            return "forward:update-password";
+            return "forward:toupdatePwd";
         }
 //        System.out.println(!newPassword.equals(checkedPassword));
         if (!newPassword.equals(checkedPassword)){
             map.put("msg","密码是输入不一致，请重新输入");
-            return "forward:update-password";
+            return "forward:toupdatePwd";
+        }
+        if (newPassword.equals(account.getPassword())){
+            map.put("msg","新密码和原密码一致，请重新输入！！！");
+            return "forward:toupdatePwd";
         }
         Account a = accountService.getByAccount(account);
         if(!a.getPassword().equals(account.getPassword())){
             map.put("msg","原密码输入错误，请重新输入");
-            return "forward:update-password";
+            return "forward:toupdatePwd";
         }
         account.setPassword(newPassword);
         accountService.update(account);

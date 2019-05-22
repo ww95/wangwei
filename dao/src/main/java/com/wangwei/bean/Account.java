@@ -19,6 +19,17 @@ public class Account {
     //用户昵称
     private String ninkName;
 
+    //用户账号是否正常
+    private Integer is_normal;
+
+    public Integer getIs_normal() {
+        return is_normal;
+    }
+
+    public void setIs_normal(Integer is_normal) {
+        this.is_normal = is_normal;
+    }
+
     public String getNinkName() {
         return ninkName;
     }

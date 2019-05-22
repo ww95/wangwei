@@ -28,64 +28,36 @@
     <div class="footer-bottom">
         <div class="container">
             <div class="footer-bottom-cate">
-                <h6>CATEGORIES</h6>
+<%--                <h6>CATEGORIES</h6>--%>
                 <ul>
-                    <li><a href="#">Curabitur sapien</a></li>
-                    <li><a href="#">Dignissim purus</a></li>
-                    <li><a href="#">Tempus pretium</a></li>
-                    <li ><a href="#">Dignissim neque</a></li>
-                    <li ><a href="#">Ornared id aliquet</a></li>
-                    <li><a href="#">Ultrices id du</a></li>
-                    <li><a href="#">Commodo sit</a></li>
-                    <li ><a href="#">Urna ac tortor sc</a></li>
-                    <li><a href="#">Ornared id aliquet</a></li>
-                    <li><a href="#">Urna ac tortor sc</a></li>
-                    <li ><a href="#">Eget nisi laoreet</a></li>
-                    <li ><a href="#">Faciisis ornare</a></li>
+                    <li>关于我们</li>
+                    <li>联系我们</li>
+                    <li>公网安备 11111111111111号</li>
+
                 </ul>
             </div>
             <div class="footer-bottom-cate bottom-grid-cat">
-                <h6>FEATURE PROJECTS</h6>
+<%--                <h6>FEATURE PROJECTS</h6>--%>
                 <ul>
-                    <li><a href="#">Curabitur sapien</a></li>
-                    <li><a href="#">Dignissim purus</a></li>
-                    <li><a href="#">Tempus pretium</a></li>
-                    <li ><a href="#">Dignissim neque</a></li>
-                    <li ><a href="#">Ornared id aliquet</a></li>
-                    <li><a href="#">Ultrices id du</a></li>
-                    <li><a href="#">Commodo sit</a></li>
-                    <li><a href="<%=request.getContextPath()%>/backstage/toLogin">admin</a></li>
+                    <li>风险检测</li>
+                    <li>隐私政策</li>
+                    <li>ICP证3213123213号</li>
                 </ul>
             </div>
             <div class="footer-bottom-cate">
-                <h6>TOP BRANDS</h6>
+<%--                <h6>TOP BRANDS</h6>--%>
                 <ul>
-                    <li><a href="#">Curabitur sapien</a></li>
-                    <li><a href="#">Dignissim purus</a></li>
-                    <li><a href="#">Tempus pretium</a></li>
-                    <li ><a href="#">Dignissim neque</a></li>
-                    <li ><a href="#">Ornared id aliquet</a></li>
-                    <li><a href="#">Ultrices id du</a></li>
-                    <li><a href="#">Commodo sit</a></li>
-                    <li ><a href="#">Urna ac tortor sc</a></li>
-                    <li><a href="#">Ornared id aliquet</a></li>
-                    <li><a href="#">Urna ac tortor sc</a></li>
-                    <li ><a href="#">Eget nisi laoreet</a></li>
-                    <li ><a href="#">Faciisis ornare</a></li>
+                    <li>商家帮助</li>
+                    <li>营销中心</li>
+                    <li>新出发京零 字第大120007号</li>
                 </ul>
             </div>
             <div class="footer-bottom-cate cate-bottom">
 <%--                <h6>OUR ADDERSS</h6>--%>
                 <ul>
-<%--                    <li>Aliquam metus  dui. </li>--%>
-<%--                    <li>orci, ornareidquet</li>--%>
-<%--                    <li> ut,DUI.</li>--%>
-<%--                    <li >nisi, dignissim</li>--%>
-<%--                    <li >gravida at.</li>--%>
-<%--                    <li class="phone">PH : 6985792466</li>--%>
-                    <li class="temp">
-<%--                        <p class="footer-class">Copyright &copy; 2015.Company name All rights reserved.More Templates</p>--%>
-                    </li>
+                    <li>公司简介</li>
+                    <li>联系客服</li>
+                    <li>消费者维权热线：18075715790</li>
                 </ul>
             </div>
             <div class="clearfix"> </div>

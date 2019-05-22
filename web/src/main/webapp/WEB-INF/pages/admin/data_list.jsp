@@ -43,9 +43,6 @@
                                 <c:if test="${buyBook.BId==books.bId}">
                                     <td>${buyBook.sumNumber}</td>
                                 </c:if>
-                                <c:if test="${buyBook.BId==books.bId}">
-                                    <td>${buyBook.sumTotail}</td>
-                                </c:if>
                             </c:forEach>
 
                         </tr>

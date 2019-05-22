@@ -28,8 +28,9 @@
                     <input type="password" id="password" name="password">
                 </div>
 <%--                    这里忘记密码也要进行设置--%>
-                <a class="forgot" href="<%=request.getContextPath()%>/toForgetPwd">Forgot Your Password?</a>
-                <input type="submit" onclick="return dataSubmit()" value="Login">
+<%--                <a class="forgot" href="<%=request.getContextPath()%>/toForgetPwd">Forgot Your Password?</a>--%>
+                <input type="submit" onclick="return dataSubmit()" value="用户登录">
+                    <span style="color: red">${msg}</span>
             </form>
             <script>
                 function dataSubmit() {
@@ -46,9 +47,9 @@
             </script>
         </div>
         <div class=" login-left">
-            <h3>NEW CUSTOMERS</h3>
-            <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>
-            <a class="acount-btn" href="<%=request.getContextPath()%>/toRegister">Create an Account</a>
+<%--            <h3>NEW CUSTOMERS</h3>--%>
+<%--            <p>By creating an account with our store, you will be able to move through the checkout process faster, store multiple shipping addresses, view and track your orders in your account and more.</p>--%>
+<%--            <a class="acount-btn" href="<%=request.getContextPath()%>/toRegister">Create an Account</a>--%>
         </div>
         <div class="clearfix"> </div>
     </div>
@@ -99,9 +100,3 @@
     <div class="clearfix"> </div>
 </div>
 <jsp:include page="bottom.jsp"></jsp:include>
-<script>
-    var msg="${msg}";
-    if(msg!=""){
-        alert(msg);
-    }
-</script>

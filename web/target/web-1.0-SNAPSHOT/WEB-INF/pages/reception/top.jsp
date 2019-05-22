@@ -2,7 +2,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Home</title>
+    <title>图书商城</title>
     <link href="<%=request.getContextPath()%>/reception/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <!--theme-style-->
     <link href="<%=request.getContextPath()%>/reception/css/style.css" rel="stylesheet" type="text/css" media="all" />
@@ -46,7 +46,7 @@
                 </div>
                 <div class="search">
                     <form action="<%=request.getContextPath()%>/sreach">
-                        <input type="text" name="search" value="${sreach}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
+                        <input type="text" name="search" value="${search}" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = '';}" >
                         <input type="submit"  value="SEARCH">
                     </form>
                 </div>

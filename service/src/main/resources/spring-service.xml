@@ -23,7 +23,7 @@
             <tx:method name="get*" read-only="true"/>
             <tx:method name="find*" read-only="true"/>
             <tx:method name="sreach*" read-only="true"/>
-            <tx:method name="*" propagation="REQUIRED"/>
+            <tx:method name="*" isolation="SERIALIZABLE" propagation="REQUIRED" />
         </tx:attributes>
     </tx:advice>
 

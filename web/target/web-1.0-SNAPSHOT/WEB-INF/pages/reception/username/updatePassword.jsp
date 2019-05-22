@@ -48,17 +48,12 @@
                     }
                 </script>
             </form>
-            <form action="<%=request.getContextPath()%>/username/toForgetPwd" method="post">
-                <input type="hidden" name="flag" value="1">
-                <input type="submit" value="忘记密码">
-            </form>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<%--            <form action="<%=request.getContextPath()%>/username/toForgetPwd" method="post">--%>
+<%--                <input type="hidden" name="flag" value="1">--%>
+<%--                <input type="submit" class="btn btn-primary" value="忘记密码">--%>
+<%--            </form>--%>
         </div>
     </section>
 </section>
 <jsp:include page="bottom.jsp"/>
-<script>
-    var msg="${msg}";
-    if(msg!=""){
-        alert(msg);
-    }
-</script>

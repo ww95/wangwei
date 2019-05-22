@@ -10,14 +10,15 @@
         <result property="status" column="astatus" javaType="java.lang.Integer"></result>
         <result property="cookie" column="acookie" javaType="java.lang.String"></result>
         <result property="ninkName" column="anick_name" javaType="java.lang.String"></result>
+        <result property="is_normal" column="is_normal" javaType="java.lang.Integer"></result>
     </resultMap>
 
     <select id="selectByAccount" resultMap="account" parameterType="com.wangwei.bean.Account" >
         select * from account where ausername = #{account} and astatus=#{status};
     </select>
 
-    <select id="selectByCookie" resultMap="account" parameterType="String" >
-        select * from account where acookie=#{cookie};
+    <select id="selectAll" resultMap="account" >
+        select * from account where astatus = 0
     </select>
     <select id="selectById" resultMap="account" parameterType="java.lang.Integer" >
         select * from account where aid=#{id};
@@ -29,8 +30,19 @@
             <if test="cookie!=null">acookie=#{cookie},</if>
             <if test="password!=null">apassword=#{password},</if>
             <if test="ninkName!=null">anick_name=#{ninkName},</if>
+            <if test="is_normal!=null">is_normal=#{is_normal},</if>
         </set>
         where ausername=#{account};
+    </update>
+    <update id="updateByid" parameterType="com.wangwei.bean.Account">
+        update account
+        <set>
+            <if test="cookie!=null">acookie=#{cookie},</if>
+            <if test="password!=null">apassword=#{password},</if>
+            <if test="ninkName!=null">anick_name=#{ninkName},</if>
+            <if test="is_normal!=null">is_normal=#{is_normal},</if>
+        </set>
+        where aid=#{id};
     </update>
 
     <insert id="insert" parameterType="com.wangwei.bean.Account">

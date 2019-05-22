@@ -21,12 +21,13 @@
                 <h1>书籍：${book.bName}</h1>
                 <h1>作者：${book.bCreate}</h1>
                 <ul class="price_single">
-                    <li class="head"><h2>价格：￥<fmt:formatNumber value="${book.bPrice*book.zhekou}" type="number"></fmt:formatNumber> </h2></li>
+                    <li class="head"><h2>原价：￥<fmt:formatNumber value="${book.bPrice}" type="number"></fmt:formatNumber> </h2></li>
+                    <li class="head"><h2>折扣价：￥<fmt:formatNumber value="${book.bPrice*book.zhekou}" type="number"></fmt:formatNumber> </h2></li>
                     <c:if test="${book.bNumber!=0}">
-                    <li class="head"><h2>库存:${book.bNumber}</h2></li>
+                    <li class="head"><h2>&nbsp;库存:${book.bNumber}</h2></li>
                     </c:if>
                     <c:if test="${book.bNumber==0}">
-                        <li class="head"><h2>图书已卖完</h2></li>
+                        <li class="head"><h2>&nbsp;图书已卖完</h2></li>
                     </c:if>
                     <div class="clearfix"> </div>
                 </ul>

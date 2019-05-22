@@ -84,6 +84,11 @@ public class AdminController {
             map.put("msg","密码是输入不一致，请重新输入");
             return "forward:update-password";
         }
+        //密码输入重复
+        if (newPassword.equals(account.getPassword())){
+            map.put("msg","新密码与原密码一致，请重新输入！！！");
+            return "forward:update-password";
+        }
         Account a = accountService.getByAccount(account);
         if(!a.getPassword().equals(account.getPassword())){
             map.put("msg","原密码输入错误，请重新输入");
@@ -155,5 +160,46 @@ public class AdminController {
         map.put("sale",sale);
         map.put("Stock",Stock);
         return "admin/data_list";
+    }
+    @RequestMapping("/user-manager")
+    public String userManager(Map<String,Object> map,@RequestParam(required = false) Integer pageNum){
+        if(null==pageNum||0==pageNum){
+            pageNum=1;
+        }
+        PageHelper.startPage(pageNum,PageNumber.NUMBER03);
+        List<Account> accountList = accountService.getAll();
+        PageInfo pageInfo = PageInfo.of(accountList);
+        map.put("pageInfo",pageInfo);
+        return "admin/user_list";
+
+    }
+
+    /**
+     * 禁止用户
+     * @return
+     */
+    @RequestMapping("/renormal")
+    public String renormal(Account account,@RequestParam(required = false)Integer pageNum){
+        if (null==pageNum||0==pageNum){
+            pageNum=1;
+        }
+        account.setIs_normal(0);
+        accountService.updateByid(account);
+        return "redirect:user-manager?pageNum="+pageNum;
+
+    }
+
+    /**
+     * 恢复用户
+     * @return
+     */
+    @RequestMapping("/normal")
+    public String normal(Account account,@RequestParam(required = false)Integer pageNum){
+        if (null==pageNum||0==pageNum){
+            pageNum=1;
+        }
+        account.setIs_normal(1);
+        accountService.updateByid(account);
+        return "redirect:user-manager?pageNum="+pageNum;
     }
 }

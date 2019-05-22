@@ -10,28 +10,48 @@
                 <h3>PERSONAL INFORMATION</h3>
                 <div class="mation">
                     <span>用户名<label>*</label></span>
-                    <input type="text" id="account" name="account">
-
+                    <input type="text" id="account" onchange="return userSubmit()" name="account">
+                    <span id="account-span" style="color: red"></span>
                     <span>用户昵称<label>*</label></span>
                     <input type="text" id="ninkName" name="ninkName">
 
                     <span>密码<label>*</label></span>
-                    <input type="password" id="password" name="password">
-
+                    <input type="password" id="password" onchange="return dataSubmit()" name="password">
+                    <span id="password-span" style="color: red"></span>
                     <span>确认密码<label>*</label></span>
-                    <input type="password" id="newPassword" onclick="return dataSubmit()" name="newPassword">
+                    <input type="password" id="newPassword" onchange="return repwdSubmit()" name="newPassword">
+                    <span id="newPassword-span" style="color: red"></span>
                 </div>
                 <script>
+                    var flag = true;
+                    var account = document.getElementById("account");
+                    var password = document.getElementById("password");
+                    var newPassword = document.getElementById("newPassword");
+                    var accountRegex = /^[a-zA-Z0-9_-]{5,16}$/;
                     function dataSubmit() {
-                        var flag = true;
-                        var account = document.getElementById("account").value;
-                        var password = document.getElementById("password").value;
-                        var ninkName = document.getElementById("ninkName").value;
-                        var newPassword = document.getElementById("newPassword").value;
-                        var accountRegex = /[a-zA-Z0-9!@#$%^&*()]{5,12}/;
-                        if(!accountRegex.test(account)||!accountRegex.test(password)||!accountRegex.test(ninkName)||!accountRegex.test(newPassword)){
-                            alert("密码格式输入错误，请重新输入");
+                        if(!accountRegex.test(password.value)){
+                            document.getElementById("password-span").innerText="密码格式输入错误，请重新输入,格式为数字，字母，!@#$%^&*()5-12位";
                             flag = false;
+                        }else{
+                            document.getElementById("password-span").innerText="";
+                        }
+                        return flag;
+                    }
+                    function userSubmit() {
+                        if(!accountRegex.test(account.value)){
+                            document.getElementById("account-span").innerText="密码格式输入错误，请重新输入,格式为数字，字母，!@#$%^&*()5-12位";
+                            flag = false;
+                        }else{
+                            document.getElementById("account-span").innerText="";
+                        }
+                        return flag;
+                    }
+                    function repwdSubmit() {
+                        if(!accountRegex.test(newPassword.value)){
+                            document.getElementById("newPassword-span").innerText="密码格式输入错误，请重新输入,格式为数字，字母，!@#$%^&*()5-12位";
+                            flag = false;
+                        }else{
+                            document.getElementById("newPassword-span").innerText="";
                         }
                         return flag;
                     }
@@ -42,7 +62,7 @@
 <%--                </a>--%>
             </div>
             <div class="login-right">
-                    <input type="submit" value="submit">
+                    <input type="submit" value="用户注册">
                     <div class="clearfix"> </div>
             </div>
         </form>
@@ -99,3 +119,9 @@
     </div>
 </div>
 <jsp:include page="bottom.jsp"></jsp:include>
+<script>
+    var msg = "${msg}";
+    if(msg!=""){
+        alert(msg);
+    }
+</script>

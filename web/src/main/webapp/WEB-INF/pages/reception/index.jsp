@@ -17,8 +17,8 @@
                                 <h3>${books.bName}</h3>
                                 <span>${books.bCreate}</span>
                                 <br>
-
-                                <span><fmt:formatNumber type="number" value="${books.bPrice*books.zhekou}"></fmt:formatNumber></span>
+                                <span>原价${books.bPrice}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                <span>优惠价<fmt:formatNumber type="number" value="${books.bPrice*books.zhekou}"></fmt:formatNumber></span>
 <%--                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et </p>--%>
                                 <p>${books.bInfo}</p>
                                 <a class="now-get" href="${pageContext.request.contextPath}/detail?bid=${books.bId}">立即购买</a>
@@ -134,3 +134,9 @@
     </div>
 </div>
 <jsp:include page="bottom.jsp"></jsp:include>
+<script>
+    var msg = "${msg}";
+    if(msg!=""){
+        alert(msg);
+    }
+</script>

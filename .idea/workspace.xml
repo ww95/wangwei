@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="web:war" />
+      <artifact name="web:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3975be13-ccba-4e38-97b5-9199f4eea6a9" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/dao/target/classes/META-INF/dao.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/user_list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/user_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4238ae5d-6e1a-43c0-ad77-4e669a07077e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4238ae5d-6e1a-43c0-ad77-4e669a07077e.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" afterDir="false" />
@@ -33,10 +38,70 @@
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta3.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/Testhaha.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/AccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/Testhaha.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/wangwei/bean/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/wangwei/bean/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service/target/classes/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/spring-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/CatalogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/DefaultAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/DefaultAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/FrontEndController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/FrontEndController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/UserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/UserNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/Filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/PageNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/PageNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/UserLoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/AdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/BookController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/CatalogController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/DefaultAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/DefaultAdminController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/FrontEndController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/FrontEndController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/UserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/UserNameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/Filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/LoginFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/PageNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/PageNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/UserLoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/username/indexCollection.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/username/indexCollection.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/data_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/data_list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/bottom.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/buyBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/buyBook.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/register.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/single.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/single.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/top.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/username/updatePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/username/updatePassword.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dao/target/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
@@ -76,28 +141,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1481">
-              <caret line="33" column="102" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="102" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BooksDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="73" column="129" selection-start-line="73" selection-start-column="99" selection-end-line="73" selection-end-column="129" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/indexCar.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2024">
-              <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
+            <state relative-caret-position="1144">
+              <caret line="52" column="161" selection-start-line="52" selection-start-column="126" selection-end-line="52" selection-end-column="161" />
             </state>
           </provider>
         </entry>
@@ -105,8 +152,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1452">
-              <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+            <state relative-caret-position="7986">
+              <caret line="376" column="39" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -115,37 +162,32 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/CarBooksService.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="1496">
+              <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="110">
+              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+              <folding>
+                <element signature="e#1404#1405#0" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/CarBooksServiceImpl.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/CarBooksDao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="616">
-              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/indexCollection.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1826">
-              <caret line="83" column="123" selection-start-line="83" selection-start-column="123" selection-end-line="83" selection-end-column="123" />
+            <state relative-caret-position="1188">
+              <caret line="54" column="23" selection-start-line="51" selection-start-column="15" selection-end-line="54" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -153,17 +195,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1056">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
+            <state relative-caret-position="1496">
+              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3212">
-              <caret line="157" column="80" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="80" />
+            <state relative-caret-position="2772">
+              <caret line="126" column="9" selection-start-line="125" selection-start-column="5" selection-end-line="126" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1738">
+              <caret line="101" selection-start-line="101" selection-end-line="101" />
             </state>
           </provider>
         </entry>
@@ -181,23 +232,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>System.out.println</find>
-      <find>buyBooks</find>
-      <find>remove</find>
-      <find>list</find>
-      <find>info</find>
-      <find>updateInfo</find>
-      <find>update-self</find>
-      <find>password</find>
-      <find>selectO</find>
-      <find>getOne</find>
-      <find>SREACH</find>
-      <find>sr</find>
-      <find>carBook</find>
-      <find>collection</find>
-      <find>collecttion</find>
-      <find>addCar</find>
-      <find>index</find>
       <find>var</find>
       <find>totial</find>
       <find>insert</find>
@@ -205,12 +239,29 @@
       <find>add</find>
       <find>selectSale</find>
       <find>selectS</find>
-      <find>login</find>
-      <find>self-all</find>
       <find>order</find>
       <find>deleteOne</find>
-      <find>buyBook</find>
       <find>detail</find>
+      <find>selectGroup</find>
+      <find>sum_totail</find>
+      <find>self-all</find>
+      <find>select</find>
+      <find>select * from account and astatus = 0</find>
+      <find>sreach</find>
+      <find>sr</find>
+      <find>register</find>
+      <find>buyBook</find>
+      <find>msg</find>
+      <find>login</find>
+      <find>toBuyBook</find>
+      <find>CATEGORIES</find>
+      <find>update</find>
+      <find>update-change-passwor</find>
+      <find>img</find>
+      <find>toForgetPwd</find>
+      <find>update-password</find>
+      <find>index</find>
+      <find>updatePwd</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -223,29 +274,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/global/PageNumber.java" />
-        <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java" />
-        <option value="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/forgetPassword.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/forgetPassword.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/top.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/bottom.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/userdetail.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/buy_book_detail.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/login.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/updatePassword.jsp" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/CollectionBooksDao.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp" />
         <option value="$PROJECT_DIR$/dao/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/Testhaha.java" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/commit.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_addNumber.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_list.jsp" />
@@ -262,18 +296,35 @@
         <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/BuyBook.java" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BuyBookDao.xml" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BooksDao.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_add.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/bottom.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/indexCar.jsp" />
         <option value="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/CarBooksDao.xml" />
-        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4238ae5d-6e1a-43c0-ad77-4e669a07077e/console.sql" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/indexCollection.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" />
+        <option value="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java" />
+        <option value="$PROJECT_DIR$/web/src/test/java/com/wangwei/test/AdminTest.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/user_list.jsp" />
+        <option value="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/AccountDao.xml" />
+        <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java" />
+        <option value="$PROJECT_DIR$/web/pom.xml" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" />
       </list>
     </option>
   </component>
@@ -370,7 +421,8 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
@@ -379,7 +431,32 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
@@ -474,6 +551,18 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="reception" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
+              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="reception" type="462c0819:PsiDirectoryNode" />
+              <item name="username" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -489,7 +578,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zlw" />
+    <property name="last_opened_file_path" value="D:/论文/Bjly" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -499,13 +588,15 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\git\wangwei\web\src\main\webapp\WEB-INF\pages\admin" />
+      <recent name="D:\git\wangwei\service\src\test" />
       <recent name="F:\git\wangwei\web\src\main\webapp" />
       <recent name="F:\git\wangwei\web\src\main\webapp\WEB-INF\pages\admin" />
       <recent name="F:\git\wangwei\web\src\main\webapp\WEB-INF\pages\reception" />
-      <recent name="F:\git\wangwei\web\src\main\webapp\WEB-INF\pages\reception\username" />
-      <recent name="F:\git\wangwei" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\git\wangwei\web\src" />
+      <recent name="D:\git\wangwei\service\src" />
       <recent name="F:\git\wangwei\web\src\main\webapp\WEB-INF\pages\reception\username" />
     </key>
   </component>
@@ -522,12 +613,12 @@
     </option>
   </component>
   <component name="RunManager">
-    <configuration name="Tomcat 8.5.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.40" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+    <configuration name="Tomcat 8.5.40" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.40" ALTERNATIVE_JRE_ENABLED="true" ALTERNATIVE_JRE_PATH="1.8" nameIsGenerated="true">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8888/index" />
       <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="web:war">
+        <artifact name="web:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
@@ -592,7 +683,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="web:war" />
+          <artifact name="web:war exploded" />
         </option>
       </method>
     </configuration>
@@ -680,7 +771,30 @@
       <workItem from="1557489058816" duration="639000" />
       <workItem from="1557533872759" duration="380000" />
       <workItem from="1557585306641" duration="1350000" />
-      <workItem from="1557619558022" duration="3391000" />
+      <workItem from="1557619558022" duration="3440000" />
+      <workItem from="1557674297342" duration="20000" />
+      <workItem from="1557717454250" duration="22000" />
+      <workItem from="1557717483708" duration="4769000" />
+      <workItem from="1557722543769" duration="17000" />
+      <workItem from="1557852976407" duration="266000" />
+      <workItem from="1557882895033" duration="641000" />
+      <workItem from="1557985869147" duration="204000" />
+      <workItem from="1558057220475" duration="457000" />
+      <workItem from="1558058408527" duration="77000" />
+      <workItem from="1558139322254" duration="2069000" />
+      <workItem from="1558144331019" duration="8118000" />
+      <workItem from="1558229378990" duration="1269000" />
+      <workItem from="1558232272013" duration="1081000" />
+      <workItem from="1558322262957" duration="982000" />
+      <workItem from="1558332008787" duration="1283000" />
+      <workItem from="1558339571236" duration="1916000" />
+      <workItem from="1558342267253" duration="3264000" />
+      <workItem from="1558348697476" duration="869000" />
+      <workItem from="1558403840769" duration="1543000" />
+      <workItem from="1558416882667" duration="629000" />
+      <workItem from="1558430603477" duration="736000" />
+      <workItem from="1558494429773" duration="530000" />
+      <workItem from="1558495568080" duration="236000" />
     </task>
     <task id="LOCAL-00001" summary="毕业设计">
       <created>1554378372590</created>
@@ -766,7 +880,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557401237923</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="毕业设计">
+      <created>1557641195308</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1557641195308</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -793,7 +914,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247600000" />
+    <option name="totallyTimeSpent" value="278647000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -806,9 +927,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4942717" weight="0.37291983" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.36762482" />
       <window_info id="Structure" order="1" sideWeight="0.5057283" side_tool="true" weight="0.31013617" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -818,8 +938,8 @@
       <window_info id="Web" order="7" sideWeight="0.5057283" side_tool="true" weight="0.31013617" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" weight="0.34590164" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4969743" visible="true" weight="0.42295083" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39836067" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295082" />
@@ -899,208 +1019,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-462">
-          <caret line="12" column="149" selection-start-line="12" selection-start-column="149" selection-end-line="12" selection-end-column="149" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="23" column="131" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="131" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_addNumber.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="107" selection-start-line="9" selection-start-column="107" selection-end-line="9" selection-end-column="107" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/detailCar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="46" column="184" selection-start-line="46" selection-start-column="179" selection-end-line="46" selection-end-column="184" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/login.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="27" column="29" selection-start-line="27" selection-start-column="29" selection-end-line="27" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/catalog_add.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/buy_book_detail.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198">
-          <caret line="9" column="55" lean-forward="true" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/updatePassword.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/BooksService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/BooksServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="55" column="37" selection-start-line="55" selection-start-column="37" selection-end-line="55" selection-end-column="37" />
-          <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1280#1281#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/BookDetail.java" />
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/BuyBooksService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="17" column="17" selection-start-line="17" selection-start-column="4" selection-end-line="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/BuyBooksServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="50" column="37" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="37" />
-          <folding>
-            <element signature="e#1183#1184#0" expanded="true" />
-            <element signature="e#1207#1208#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1301#1302#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="54" column="44" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BuyBookDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="47" selection-start-line="26" selection-start-column="47" selection-end-line="26" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/BooksDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="45" column="9" selection-start-line="30" selection-start-column="8" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/BuyBookDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1900">
-          <caret line="76" column="19" selection-start-line="13" selection-start-column="4" selection-end-line="76" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/service/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="39" selection-start-line="11" selection-start-column="4" selection-end-line="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="39" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/global/Filter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="18" column="41" selection-start-line="14" selection-start-column="8" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/BuyBook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1557#1558#0" expanded="true" />
-            <element signature="e#1653#1654#0" expanded="true" />
-            <element signature="e#1683#1684#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_add.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="40" selection-end-line="20" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="32" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/CatalogDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="72" selection-start-line="11" selection-start-column="61" selection-end-line="11" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/order_list.jsp">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1118,20 +1036,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="95" column="119" selection-start-line="95" selection-start-column="119" selection-end-line="95" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_detail.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
@@ -1143,20 +1047,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
           <caret line="2" column="27" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2310">
-          <caret line="125" column="36" selection-start-line="125" selection-start-column="36" selection-end-line="125" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1562">
-          <caret line="71" column="34" selection-start-line="71" selection-start-column="34" selection-end-line="71" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -1174,37 +1064,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4238ae5d-6e1a-43c0-ad77-4e669a07077e/console.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1481">
-          <caret line="33" column="102" selection-start-line="33" selection-start-column="96" selection-end-line="33" selection-end-column="102" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/top.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/indexCar.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2024">
           <caret line="92" column="97" selection-start-line="92" selection-start-column="97" selection-end-line="92" selection-end-column="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1236,24 +1099,277 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="10" selection-end-line="48" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3212">
-          <caret line="157" column="80" selection-start-line="157" selection-start-column="12" selection-end-line="157" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BooksDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="73" column="129" selection-start-line="73" selection-start-column="99" selection-end-line="73" selection-end-column="129" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/BuyBooksServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="50" column="37" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="37" />
+          <folding>
+            <element signature="e#1183#1184#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1274#1275#0" expanded="true" />
+            <element signature="e#1321#1322#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/BuyBooksService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/BuyBookDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BuyBookDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="726">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/spring-dao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/resources/spring-service.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/global/PageNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/test/resources/spring-service.xml" />
+    <entry file="file://$PROJECT_DIR$/web/src/test/java/com/wangwei/test/AdminTest.java" />
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/admin_detail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/user_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="43" column="117" selection-start-line="43" selection-start-column="117" selection-end-line="43" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="22" column="29" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="29" />
+          <folding>
+            <element signature="e#384#385#0" expanded="true" />
+            <element signature="e#416#417#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="76" column="5" lean-forward="true" selection-start-line="73" selection-start-column="3" selection-end-line="76" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/AccountDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="26" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="31" column="37" selection-start-line="31" selection-start-column="37" selection-end-line="31" selection-end-column="37" />
+          <folding>
+            <element signature="e#853#854#0" expanded="true" />
+            <element signature="e#899#900#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/books_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="98" selection-start-line="71" selection-start-column="92" selection-end-line="71" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="27" column="13" lean-forward="true" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="59" column="43" selection-start-line="59" selection-start-column="43" selection-end-line="59" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="34" column="20" lean-forward="true" selection-start-line="34" selection-start-column="20" selection-end-line="34" selection-end-column="20" />
+          <folding>
+            <element signature="e#1581#1599#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/top.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/userdetail.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="141" selection-start-line="17" selection-start-column="141" selection-end-line="17" selection-end-column="141" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/detail.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1914">
+          <caret line="99" column="24" selection-start-line="99" selection-start-column="24" selection-end-line="99" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2266">
+          <caret line="103" selection-start-line="106" selection-start-column="80" selection-end-line="106" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/4238ae5d-6e1a-43c0-ad77-4e669a07077e/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1144">
+          <caret line="52" column="161" selection-start-line="52" selection-start-column="126" selection-end-line="52" selection-end-column="161" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7986">
+          <caret line="376" column="39" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="54" column="23" selection-start-line="51" selection-start-column="15" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1496">
+          <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2772">
+          <caret line="126" column="9" selection-start-line="125" selection-start-column="5" selection-end-line="126" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1738">
+          <caret line="101" selection-start-line="101" selection-end-line="101" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+          <folding>
+            <element signature="e#1404#1405#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1314,6 +1430,7 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

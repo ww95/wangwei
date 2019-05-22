@@ -950,17 +950,18 @@
       <NotNull>1</NotNull>
       <ColumnKind>normal</ColumnKind>
     </column>
-    <column id="240" parent="230" name="acookie">
+    <column id="240" parent="230" name="anick_name">
       <Position>5</Position>
-      <Comment>用户cookie</Comment>
-      <DataType>varchar(20)|0s</DataType>
-      <ColumnKind>normal</ColumnKind>
-    </column>
-    <column id="241" parent="230" name="anick_name">
-      <Position>6</Position>
       <Comment>用户昵称</Comment>
       <DataType>varchar(10)|0s</DataType>
       <NotNull>1</NotNull>
+      <ColumnKind>normal</ColumnKind>
+    </column>
+    <column id="241" parent="230" name="is_normal">
+      <Position>6</Position>
+      <Comment>用户账号是否正常，1表示正常，0表示异常</Comment>
+      <DataType>int(11)|0s</DataType>
+      <DefaultExpression>1</DefaultExpression>
       <ColumnKind>normal</ColumnKind>
     </column>
     <key id="242" parent="230" name="PRIMARY">

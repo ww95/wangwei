@@ -12,6 +12,7 @@ import javax.servlet.http.HttpSession;
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Map;
+import java.util.Objects;
 
 @Controller
 @RequestMapping("/")
@@ -90,8 +91,13 @@ public class FrontEndController {
             map.put("msg","用户名或密码错误");
             return "forward:toLogin";
         }
+        if (0==account1.getIs_normal()){
+            map.put("msg","账号异常，请联系商家申请账号！！！");
+            return "forward:toLogin";
+        }
+        map.put("msg","用户"+account1.getAccount()+"登录成功");
         session.setAttribute("username",account1);
-        return "redirect:index";
+        return "forward:/index";
     }
 
     /**

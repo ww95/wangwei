@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
+import java.util.List;
 
 @Service("accountService")
 public class AccountServiceImpl implements AccountService {
@@ -27,9 +28,10 @@ public class AccountServiceImpl implements AccountService {
         accountDao.update(account);
     }
 
-    public Account getByCookie(String cookie) {
-        return accountDao.selectByCookie(cookie);
+    public void updateByid(Account account) {
+        accountDao.updateByid(account);
     }
+
 
     public Account getByAccount(Account account) {
         return accountDao.selectByAccount(account);
@@ -42,5 +44,9 @@ public class AccountServiceImpl implements AccountService {
     //判断用户名是否为空
     public Account isTrue(Account account) {
         return accountDao.selectByAccount(account);
+    }
+
+    public List<Account> getAll() {
+        return accountDao.selectAll();
     }
 }

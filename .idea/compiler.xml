@@ -15,7 +15,7 @@
       <module name="dao" target="1.5" />
       <module name="service" target="1.5" />
       <module name="wangwei" target="1.5" />
-      <module name="web" target="1.5" />
+      <module name="web" target="7" />
     </bytecodeTargetLevel>
   </component>
 </project>

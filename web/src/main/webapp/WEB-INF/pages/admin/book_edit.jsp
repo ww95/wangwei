@@ -47,6 +47,10 @@
                     <input type="text"  class="form-control" id="exampleInput7" value="${book.bNumber}" aria-describedby="emailHelp" placeholder="请输入数量" name="bNumber">
                 </div>
                 <div class="form-group">
+                    <label for="exampleInput9">折扣率</label>
+                    <input type="text"  class="form-control" id="exampleInput9" value="${book.zhekou}" aria-describedby="emailHelp" placeholder="请输入价格" name="zhekou">
+                </div>
+                <div class="form-group">
                     <label for="exampleInput5">图书描述</label>
                     <textarea id="exampleInput5" cols="50" name="bInfo" placeholder="请输入描述">${book.bInfo}</textarea>
 

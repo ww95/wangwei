@@ -7,101 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3975be13-ccba-4e38-97b5-9199f4eea6a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dao/target/classes/META-INF/dao.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/user_list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/user_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/4238ae5d-6e1a-43c0-ad77-4e669a07077e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/4238ae5d-6e1a-43c0-ad77-4e669a07077e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_5_1_8.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_15.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_47.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_5_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_2_0_0.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jcl_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_5_0_0_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_testng_testng_7_0_0_beta3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/download/images/1558526366378.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/download/images/1558526642222.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/Testhaha.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/AccountDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/AccountDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/Testhaha.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/wangwei/bean/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/wangwei/bean/Account.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dao/target/classes/com/wangwei/dao/AccountDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/service/service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/AccountServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/AccountService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/com/wangwei/service/impl/AccountServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service/target/classes/spring-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service/target/classes/spring-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/FrontEndController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/single.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/CatalogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/DefaultAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/DefaultAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/FrontEndController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/FrontEndController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/UserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/controller/reception/UserNameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/Filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/PageNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/PageNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/classes/com/wangwei/global/UserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/AdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/AdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/BookController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/BookController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/CatalogController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/CatalogController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/DefaultAdminController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/DefaultAdminController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/FrontEndController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/FrontEndController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/UserNameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/controller/reception/UserNameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/Filter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/LoginFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/LoginFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/PageNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/PageNumber.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/UserLoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/classes/com/wangwei/global/UserLoginController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/lib/service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/book_edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/book_edit.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/data_list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/data_list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/admin/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/bottom.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/bottom.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/buyBook.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/buyBook.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/index.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/register.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/register.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/single.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/single.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/top.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/top.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/username/updatePassword.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/target/web-1.0-SNAPSHOT/WEB-INF/pages/reception/username/updatePassword.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/web.iml" beforeDir="false" afterPath="$PROJECT_DIR$/web/web.iml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/dao/target/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
@@ -141,80 +53,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/index.jsp">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1144">
-              <caret line="52" column="161" selection-start-line="52" selection-start-column="126" selection-end-line="52" selection-end-column="161" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7986">
-              <caret line="376" column="39" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+            <state relative-caret-position="1100">
+              <caret line="50" column="100" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java">
+        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-              <folding>
-                <element signature="e#1404#1405#0" expanded="true" />
-                <element signature="e#1441#1442#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" column="23" selection-start-line="51" selection-start-column="15" selection-end-line="54" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1496">
-              <caret line="68" column="21" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/register.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2772">
-              <caret line="126" column="9" selection-start-line="125" selection-start-column="5" selection-end-line="126" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/buyBook.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1738">
-              <caret line="101" selection-start-line="101" selection-end-line="101" />
+            <state relative-caret-position="263">
+              <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -255,13 +106,13 @@
       <find>login</find>
       <find>toBuyBook</find>
       <find>CATEGORIES</find>
-      <find>update</find>
       <find>update-change-passwor</find>
       <find>img</find>
       <find>toForgetPwd</find>
       <find>update-password</find>
       <find>index</find>
       <find>updatePwd</find>
+      <find>update</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -283,7 +134,6 @@
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/commit.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_addNumber.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_list.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Books.java" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/BookController.java" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/dao/BooksDao.java" />
@@ -302,7 +152,6 @@
         <option value="$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/CarBooksDao.xml" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/4238ae5d-6e1a-43c0-ad77-4e669a07077e/console.sql" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/indexCollection.jsp" />
-        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" />
         <option value="$PROJECT_DIR$/service/src/main/resources/spring-service.xml" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/top.jsp" />
         <option value="$PROJECT_DIR$/dao/src/main/java/com/wangwei/bean/Account.java" />
@@ -325,6 +174,8 @@
         <option value="$PROJECT_DIR$/web/pom.xml" />
         <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/reception/username/updatePassword.jsp" />
         <option value="$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp" />
+        <option value="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp" />
       </list>
     </option>
   </component>
@@ -381,6 +232,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -421,8 +273,7 @@
               <item name="dao" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
@@ -431,32 +282,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
@@ -475,44 +301,6 @@
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wangwei" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-              <item name="reception" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
@@ -550,7 +338,7 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="reception" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="wangwei" type="b2602c69:ProjectViewProjectNode" />
@@ -562,13 +350,11 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="reception" type="462c0819:PsiDirectoryNode" />
-              <item name="username" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -794,7 +580,12 @@
       <workItem from="1558416882667" duration="629000" />
       <workItem from="1558430603477" duration="736000" />
       <workItem from="1558494429773" duration="530000" />
-      <workItem from="1558495568080" duration="236000" />
+      <workItem from="1558495568080" duration="321000" />
+      <workItem from="1558526040616" duration="707000" />
+      <workItem from="1558527238330" duration="283000" />
+      <workItem from="1558598720096" duration="644000" />
+      <workItem from="1558655354813" duration="863000" />
+      <workItem from="1558658829485" duration="371000" />
     </task>
     <task id="LOCAL-00001" summary="毕业设计">
       <created>1554378372590</created>
@@ -887,7 +678,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557641195308</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="毕业设计">
+      <created>1558495869536</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1558495869537</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -914,7 +712,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278647000" />
+    <option name="totallyTimeSpent" value="281600000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,7 +726,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.36762482" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4942717" visible="true" weight="0.3797277" />
       <window_info id="Structure" order="1" sideWeight="0.5057283" side_tool="true" weight="0.31013617" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -1019,16 +817,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/order_list.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/catalog_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1452">
-          <caret line="66" column="49" selection-start-line="66" selection-start-column="48" selection-end-line="66" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/CollectionBooksDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
@@ -1099,13 +887,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BooksDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="73" column="129" selection-start-line="73" selection-start-column="99" selection-end-line="73" selection-end-column="129" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/service/src/main/java/com/wangwei/service/impl/BuyBooksServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1137,13 +918,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="726">
           <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="65" column="25" selection-start-line="65" selection-start-column="25" selection-end-line="65" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1317,20 +1091,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7986">
-          <caret line="376" column="39" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1496">
           <caret line="88" column="45" selection-start-line="88" selection-start-column="45" selection-end-line="88" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_add.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="946">
+          <caret line="43" column="22" selection-start-line="40" selection-start-column="16" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1362,14 +1140,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/DefaultAdminController.java">
+    <entry file="file://$PROJECT_DIR$/dao/src/main/resources/com/wangwei/dao/BooksDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="12" column="7" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        <state relative-caret-position="203">
+          <caret line="43" column="12" selection-start-line="43" selection-start-column="6" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/java/com/wangwei/controller/reception/UserNameController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="376" column="39" selection-start-line="376" selection-start-column="28" selection-end-line="376" selection-end-column="39" />
           <folding>
-            <element signature="e#1404#1405#0" expanded="true" />
-            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/book_edit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="50" column="100" selection-start-line="50" selection-start-column="100" selection-end-line="50" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/src/main/webapp/WEB-INF/pages/admin/data_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="70" column="31" lean-forward="true" selection-start-line="70" selection-start-column="31" selection-end-line="70" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -1413,7 +1211,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.8</last-edited>
+          <last-edited>12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1430,7 +1228,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

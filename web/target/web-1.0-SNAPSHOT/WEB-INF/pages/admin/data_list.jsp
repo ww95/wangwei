@@ -56,6 +56,14 @@
                         <td>${sale}</td>
 
                     </tr>
+                    <tr>
+                        <th scope="row">盈利情况</th>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td>${sale - Stock}</td>
+
+                    </tr>
                     </tbody>
                 </table>
 <div>
